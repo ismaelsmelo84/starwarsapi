@@ -16,7 +16,7 @@ import { ResultsComponent } from './results/results.component';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [ ],
+  providers: [ HttpClientModule ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
