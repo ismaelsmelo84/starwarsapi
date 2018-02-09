@@ -1,3 +1,5 @@
+Acesse o demo em: http://starwarsapi.s3-website-eu-west-1.amazonaws.com/
+
 # Learning
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
@@ -59,13 +61,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 **	Conforme o exercício, é necessário um Frontend, que acessará diretamente uma API pública. Ele será construído em Angular 5 (utilizando Typescript), num projeto criado a partir do Angular CLI.
 ** Necessário analisar a documentação de “StarWars API”, que utiliza o formato JSON.
 **	O leiaute será implementado com HTML e CSS, utilizando Bootstrap.
-**	O código será disponibilizado em um ambiente da plataforma “Heroku”, plataforma que abstrai o ambiente AWS – também poderia ser disponibilizado diretamente na AWS, utilizando o serviço S3, que apresenta alta disponibilidade (99,999999999%) e durabilidade.
+**	O código será disponibilizado em um ambiente da plataforma “Heroku”, plataforma que abstrai o ambiente AWS – também poderia ser disponibilizado diretamente na AWS, utilizando o serviço S3, que apresenta alta disponibilidade (99,999999999%) e durabilidade. (ACABEI USANDO O SERVIÇO S3, POR TER MAIOR FAMILIARIDADE COM A AWS)
 
 *	Ambientes de desenvolvimento
 **	O ambiente de desenvolvimento local rodará com o comando “ng serve”;
 **	Os testes unitários serão realizados automaticamente, utilizando Karma e Jasmine;
-**	O buid em JS será gerado através do comando “ng build”, e será disponibilizado no “Heroku”;
-**	Os testes funcionais serão realizados manualmente, diretamente na aplicação disponível no Heroku (este seria considerado o ambiente de “Testes/ Homologação” para o projeto em questão).
+**	O buid em JS será gerado através do comando “ng build”, e será disponibilizado no “Heroku”; (DISPONIBILIZADO NA AWS)
+**	Os testes funcionais serão realizados manualmente, diretamente na aplicação disponível no Heroku (este seria considerado o ambiente de “Testes/ Homologação” para o projeto em questão). (REALIZADO NA AWS)
 
 *	Passados os testes funcionais, num cenário prático, faríamos uso de um ambiente de produção, mas como é apenas um exercício, isso não será necessário.
 **	Também poderíamos usar práticas adicionais de integração e entrega contínua, mas esse não é o foco do exercício.
@@ -114,12 +116,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ***	No diretório do projeto, via prompt, após realizada a inicialização do projeto com o download das dependências (passo anterior), utilize o comando “ng test” para iniciar o Karma + Jasmine e avaliar se os casos de testes especificados estão passando. (O tempo sugerido não foi suficiente para esta etapa ser automatizada - foram realizados testes manuais)
 
 *	AMBIENTE DE TESTES/ HOMOLOGAÇÃO
-**	URL para acessar o projeto:
+**	URL para acessar o projeto: http://starwarsapi.s3-website-eu-west-1.amazonaws.com/
 
 ### TEMPO DE DESENVOLVIMENTO DO PROJETO
 
 *	Planejamento e elaboração do README: cerca de 45 minutos
 *	Desenvolvimento do projeto: cerca de 4 horas
 *	Execução de testes: cerca de 20 minutos
-*	Disponibilização do código no “Heroku”: cerca de 20 minutos
-*	TEMPO TOTAL GASTO: cerca de 5h25min
+*	Disponibilização do código na “AWS”: cerca de 10 minutos (perdi 20 no Heroku)
+*	TEMPO TOTAL GASTO: cerca de 5h35min
