@@ -1,3 +1,12 @@
-<p>
-  search works!
-</p>
+<!-- SEARCH BAR -->
+<div id="search-bar" class="input-group">
+
+    <!-- logo -->
+    <input id="nameSearch" type="text" class="form-control" placeholder="Search a person from StarWars..." (keyup)="onName($event)">
+
+    <!-- search-button -->
+    <span class="input-group-btn">
+      <button id="search-button" class="btn btn-search" type="button" (click)="passFilter()"><i class="fa fa-search fa-fw"></i> Let's go</button>
+    </span>
+
+</div>

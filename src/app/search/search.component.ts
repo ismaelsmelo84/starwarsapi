@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchComponent implements OnInit {
 
+  filter: string = ''
+  name: string = ''
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  /* active to press key */
+  public onName(event: any) {
+
+    this.filter = event.target.value
+  }
+
+  /* active to press the button for search*/
+  public passFilter(event: any) {
+
+    this.name = this.filter
+  }
 }
